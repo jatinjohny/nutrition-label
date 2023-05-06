@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    120deg,
+    rgba(68, 123, 200, 0.8),
+    rgba(62, 223, 223, 0.8)
+  );
+}
+
+.label {
+  background: white;
+  width: 270px;
+  margin: 20px auto;
+  border: 2px solid #aaa;
+  padding: 0 8px;
+}
